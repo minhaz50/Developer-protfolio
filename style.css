@@ -1,7 +1,45 @@
 body{
     font-family: 'Poppins', sans-serif;
-    font-family: 'Pushster', cursive;
+    
 }
 h1{
     font-size: 50px;
+    letter-spacing: 8px;
+    font-weight: 400;
+}
+.orange-color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 100%;
+    padding: 5%;
+    margin-top: 2%;
+
+}
+.half-width img{
+    width: 80%;
+}
+.btn{
+    display: flex;
+    color: #fff;
+    font-size: 1em;
+    background-image: linear-gradient(orange,tomato);
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.5s;   
+}
+.btn:hover{
+    letter-spacing: 6px;
+}
+.banner-top{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
 }
