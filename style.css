@@ -12,6 +12,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 100%;
@@ -42,4 +43,24 @@ section{
 .banner-top{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}
+.cv-btn{
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(rgb(255, 0, 200),rgb(111, 71, 255));
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: 400px;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.cv-btn:hover{
+    letter-spacing: 6px;
+}
+.Dream-big{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x:right;
 }
